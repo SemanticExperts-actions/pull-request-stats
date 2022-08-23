@@ -94,7 +94,7 @@ describe('Interactors | postSlackMessage | .buildReviewer', () => {
             STATS.fields[1],
             {
               type: 'mrkdwn',
-              text: `*${t('table.columns.timeToReview')}:* <https://app.flowwer.dev/charts/review-time/1|34m>`,
+              text: `*${t('table.columns.timeToReview')}:* <|34m>`,
             },
           ],
         },

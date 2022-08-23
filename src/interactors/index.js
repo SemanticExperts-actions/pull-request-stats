@@ -1,7 +1,6 @@
 const alreadyPublished = require('./alreadyPublished');
 const buildTable = require('./buildTable');
 const buildComment = require('./buildComment');
-const checkSponsorship = require('./checkSponsorship');
 const getPulls = require('./getPulls');
 const getReviewers = require('./getReviewers');
 const postSlackMessage = require('./postSlackMessage');
@@ -12,7 +11,6 @@ module.exports = {
   alreadyPublished,
   buildTable,
   buildComment,
-  checkSponsorship,
   getPulls,
   getReviewers,
   postSlackMessage,

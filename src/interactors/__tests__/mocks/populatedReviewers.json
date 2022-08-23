@@ -49,7 +49,7 @@
       "timeToReview": 0.19515093891133825
     },
     "urls": {
-      "timeToReview": "https://app.flowwer.dev/charts/review-time/1"
+      "timeToReview": ""
     }
   },
   {
@@ -81,7 +81,7 @@
       "timeToReview": 0.8048490610886617
     },
     "urls": {
-      "timeToReview": "https://app.flowwer.dev/charts/review-time/2"
+      "timeToReview": ""
     }
   }
 ]

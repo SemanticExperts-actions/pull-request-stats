@@ -33,10 +33,10 @@ const getParams = () => {
     publishAs: core.getInput('publish-as'),
     periodLength: getPeriod(),
     displayCharts: core.getBooleanInput('charts'),
-    disableLinks: core.getBooleanInput('disable-links'),
+    disableLinks: true,
     pullRequestId: getPrId(),
     limit: parseInt(core.getInput('limit'), 10),
-    telemetry: core.getBooleanInput('telemetry'),
+    telemetry: false,
     slack: {
       webhook: core.getInput('slack-webhook'),
       channel: core.getInput('slack-channel'),

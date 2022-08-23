@@ -1,4 +1,3 @@
-const buildReviewTimeLink = require('./buildReviewTimeLink');
 const getContributions = require('./getContributions');
 const calculateTotals = require('./calculateTotals');
 const sortByStats = require('./sortByStats');
@@ -6,7 +5,7 @@ const sortByStats = require('./sortByStats');
 const applyLimit = (data, limit) => (limit > 0 ? data.slice(0, limit) : data);
 
 const getUrls = ({ reviewer, periodLength }) => ({
-  timeToReview: buildReviewTimeLink(reviewer, periodLength),
+  timeToReview: '',
 });
 
 module.exports = ({

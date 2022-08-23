@@ -116,3 +116,5 @@ out
 
 # Local test file
 .run.js
+
+.idea
